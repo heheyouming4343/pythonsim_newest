@@ -1,0 +1,18 @@
+# Re:sim System Configuration
+Sirius System Config File
+
+# Core System
+Name;SCore
+IPAd;127.0.0.1
+
+# Re:sim Application
+Name;Re:sim
+IPAd;127.0.0.1
+
+# Function Extender
+Name;Function Extender[1]
+IPAd;127.0.0.1
+
+# Network Definitions
+Defs;Re:sim;Function Extender[1];20000
+Defs;Function Extender[1];Re:sim;20001  
